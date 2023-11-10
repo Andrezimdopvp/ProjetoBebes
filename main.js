@@ -4,7 +4,7 @@ objects = [];
 som = "";
 
 function preload(){
-    som = loadSound("alarm.mp3")
+    //som = loadSound("alarm.mp3");
 }
 function setup(){
     canvas = createCanvas(380, 380);
@@ -48,7 +48,8 @@ function draw() {
           {
             document.getElementById("numberOfObjects").innerHTML = "Bebê encontrado";
             console.log("stop");
-            som.play();}
+            //som.play();
+        }
             
       }  
 
